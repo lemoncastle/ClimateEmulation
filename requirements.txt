@@ -1,0 +1,10 @@
+numpy
+pandas
+netCDF4
+xarray
+eofs
+matplotlib
+cartopy
+scikit-learn
+joblib
+esem

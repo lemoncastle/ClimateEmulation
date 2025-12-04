@@ -1,21 +1,13 @@
 import numpy as np
-import netCDF4
 import pandas as pd
 import xarray as xr
 from eofs.xarray import Eof
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 from matplotlib import colors
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.feature_selection import RFE
-from sklearn import metrics
-from sklearn.ensemble import RandomForestRegressor 
-from sklearn.model_selection import RandomizedSearchCV
-from esem import rf_model
-from esem.utils import leave_one_out
-import joblib
 
-data_path = "/glade/u/home/okyang/input_data/"
+### Set data path
+data_path = "./dataset/"
 
 min_co2 = 0.
 max_co2 = 9500
